@@ -31,7 +31,8 @@ Users should be able to:
 
 ### Links
 
-
+- Solution URL: [https://github.com/andrejcode/interactive-rating-component](https://github.com/andrejcode/interactive-rating-component)
+- Live Site URL: [https://andrejcode.github.io/interactive-rating-component/](https://andrejcode.github.io/interactive-rating-component/)
 
 ### Built with
 
