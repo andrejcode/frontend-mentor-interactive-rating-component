@@ -62,12 +62,17 @@ button {
 
 .number-btn:hover {
   background-color: hsl(216, 12%, 54%);
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
-.submit-btn {
+.active-button {
   background-color: hsl(25, 97%, 53%);
-  color: #fff;
+  color: hsl(0, 0%, 100%);
+}
+
+#submit-btn {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
   border: none;
   border-radius: 24px;
   width: 100%;
@@ -75,9 +80,36 @@ button {
   margin-top: 10px;
 }
 
-.submit-btn:hover {
-  background-color: #fff;
+#submit-btn:hover {
+  background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+}
+
+.thank-you-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selected-rating {
+  background-color: hsl(215, 8%, 24%);
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.selected-rating p {
+  font-size: 12px;
+  padding: 0 10px;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you-card .appreciate {
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
 }
 
 .attribution {
@@ -91,4 +123,34 @@ button {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 1400px) {
+  .rating-card {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .rating-card {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .rating-card {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .rating-card {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .rating-card {
+    width: 60%;
+  }
 }
