@@ -7,7 +7,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -29,11 +28,6 @@ Users should be able to:
 ![](./screenshots/screenshot1.png)
 ![](./screenshots/screenshot2.png)
 
-### Links
-
-- Solution URL: [https://github.com/andrejcode/interactive-rating-component](https://github.com/andrejcode/interactive-rating-component)
-- Live Site URL: [https://andrejcode.github.io/interactive-rating-component/](https://andrejcode.github.io/interactive-rating-component/)
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -42,5 +36,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@andrejcode](https://www.frontendmentor.io/profile/andrejcode)
 - Twitter - [@andrejcodes](https://www.twitter.com/andrejcodes)
